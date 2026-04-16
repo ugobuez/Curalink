@@ -1,0 +1,21 @@
+{
+  "name": "curalink",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-ready MERN monorepo for multi-source research chat.",
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace @curalink/server & npm run dev --workspace @curalink/client",
+    "dev:server": "npm run dev --workspace @curalink/server",
+    "dev:client": "npm run dev --workspace @curalink/client",
+    "build": "npm run build --workspace @curalink/client",
+    "start": "npm run start --workspace @curalink/server"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
