@@ -32,6 +32,7 @@ curalink/
 4. Run both apps:
    ```bash
    npm run dev
+   Ollama server
    ```
 
 ## Endpoints
