@@ -28,11 +28,15 @@ curalink/
    ```bash
    cp .env.example .env
    ```
-3. Start MongoDB locally and ensure Ollama is running.
-4. Run both apps:
+3. Start MongoDB locally and ensure Ollama is running. to start run in another terminal
+ ```bash
+  Ollama serve
+  
+   ```
+5. Run both apps:
    ```bash
    npm run dev
-   Ollama server
+  
    ```
 
 ## Endpoints
